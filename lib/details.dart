@@ -114,7 +114,6 @@ class _DetailsPageState extends State<DetailsPage> {
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: const Text("NGC:", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
-                          
                           ),
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
@@ -127,12 +126,10 @@ class _DetailsPageState extends State<DetailsPage> {
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: const Text("Coordinates:", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
-                          
                           ),
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: Text("$ra  $dec  $sec", style: const TextStyle(fontSize: 20),),
-                          
                           ),
                         ],
                       ),
@@ -141,26 +138,22 @@ class _DetailsPageState extends State<DetailsPage> {
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: const Text("Constellation:", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
-                          
                           ),
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: Text(constellation, style: const TextStyle(fontSize: 20),),
-                          
                           ),
                         ],
                       ),
-                                            TableRow(
+                      TableRow(
                         children: [
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: const Text("Magnitude:", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
-                          
                           ),
                           Container(
                             padding: const EdgeInsets.only(top: 10.0, left: 20, bottom: 20.0),
                             child: Text(magnitude, style: const TextStyle(fontSize: 20),),
-                          
                           ),
                         ],
                       ),

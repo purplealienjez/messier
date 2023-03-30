@@ -97,6 +97,17 @@ class _MessierState extends State<Messier> {
             debugShowCheckedModeBanner: false,
             home: Scaffold(
               appBar: AppBar(
+                leading: IconButton(
+                  icon: const Icon(Icons.settings),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PopulatePage(),
+                      ),
+                    );     
+                  },
+                ),
                 title: Container(
                   width: double.infinity,
                   height: 40,
@@ -110,14 +121,6 @@ class _MessierState extends State<Messier> {
                         suffixIcon: IconButton(
                           icon: const Icon(Icons.clear),  
                           onPressed: () {
-                            /*
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => PopulatePage(),
-                              ),
-                            );
-                            */
                             fieldText.clear();
                           },
                         ),

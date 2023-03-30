@@ -79,13 +79,15 @@ class _PopulatePageState extends State<PopulatePage> {
               backgroundColor: Colors.transparent,
             ),
           ),
-          title: const Text('POPULATE'),
+          title: const Text('Settings'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(5),
           child: Column(
             children: <Widget>[
-              const Text('Press button to populate databaser'),
+              const SizedBox(height: 40,),
+              const Text('Press button to populate database', 
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
               Expanded(
                 child: Align(
                   alignment: Alignment.center,

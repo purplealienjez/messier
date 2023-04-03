@@ -103,7 +103,7 @@ class _MessierState extends State<Messier> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => PopulatePage(),
+                        builder: (context) => const PopulatePage(),
                       ),
                     );     
                   },
